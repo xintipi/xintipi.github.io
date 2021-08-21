@@ -5,7 +5,7 @@
     height: 100%;
     align-items: center;
     justify-content: center;
-    padding: 0 15rem;
+    padding: 0 5rem;
 }
 
 .blog-grid1 {
@@ -37,7 +37,7 @@
 
 /*--  about --*/
 .about-grids h4 {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 30px;
     text-transform: capitalize;
     font-weight: 600;
@@ -45,11 +45,11 @@
 }
 
 .about-grids p {
-    color: #666;
+    color: #000;
     margin: 1.5em 0;
     line-height: 28px;
     letter-spacing: .5px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 
@@ -180,7 +180,7 @@ h3.agile_tittle.two {
 }
 
 h3.heading {
-    font-size: 45px;
+    font-size: 30px;
     text-align: center;
     color: #fff;
     font-weight: 600;
@@ -226,7 +226,7 @@ h3.heading:after {
 .w3-icon-grid1 h3 {
     text-transform: capitalize;
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -248,7 +248,7 @@ h3.heading:after {
     margin: 1.5em 0;
     line-height: 28px;
     letter-spacing: .5px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 /*-- // services --*/
@@ -261,7 +261,7 @@ h3.heading:after {
 .exp-grids h4, .exp-grid1 h4 {
     text-transform: capitalize;
     color: #aaa;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-top: 15px;
@@ -269,16 +269,16 @@ h3.heading:after {
 }
 
 .exp-grids h5, .exp-grid1 h5 {
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     font-weight: 600;
 }
 
 .exp-grids p {
-    line-height: 28px;
+    line-height: 24px;
     letter-spacing: .5px;
-    font-size: 15px;
-    color: #666;
+    font-size: 14px;
+    color: #000;
     border-left: 3px solid #222;
     padding-left: 3em;
 }
@@ -292,7 +292,7 @@ h3.heading:after {
 .exp-grid1 p {
     line-height: 28px;
     letter-spacing: .5px;
-    font-size: 15px;
+    font-size: 13px;
     color: #666;
     border-right: 3px solid #222;
     padding-right: 3em;
@@ -543,7 +543,7 @@ label {
     }
 
     .contact-grids h4 {
-        font-size: 22px;
+        font-size: 20px;
         letter-spacing: 0px;
     }
 

@@ -113,7 +113,7 @@ function () {
 
     this.COLOR_PALLETE = new _colorLibrary.default();
     this.PALLETE_1 = this.COLOR_PALLETE.COLOR_PALLETE_2;
-    this.RANDOM = 35;
+    this.RANDOM = 20;
     this.CANVAS = {
       width: stage.width,
       height: stage.height
@@ -156,7 +156,7 @@ function () {
           y: _this.CANVAS.height - 100 + Math.random() * 100
         };
         var rainDrop = new Rect(randomX, 0, 1, 20).fill(_this.PALLETE_1.right_1).addTo(stage);
-        rainDrop.animate('1.5s', dropTarget, {
+        rainDrop.animate('1.3s', dropTarget, {
           easing: 'easeIn',
           onEnd: function onEnd() {
             rainDrop.destroy();

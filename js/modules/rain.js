@@ -9,7 +9,7 @@ export default class Rain {
     constructor() {
         this.COLOR_PALLETE = new COLORS();
         this.PALLETE_1 = this.COLOR_PALLETE.COLOR_PALLETE_2;
-        this.RANDOM = 35;
+        this.RANDOM = 20;
 
         this.CANVAS = {
             width: stage.width,
@@ -49,7 +49,7 @@ export default class Rain {
             let randomX = Math.random() * this.CANVAS.width + 50;
             let dropTarget = {x: randomX - 70, y: this.CANVAS.height - 100 + Math.random() * 100}
             let rainDrop = new Rect(randomX, 0, 1, 20).fill(this.PALLETE_1.right_1).addTo(stage);
-            rainDrop.animate('1.5s', dropTarget, {
+            rainDrop.animate('1.3s', dropTarget, {
                 easing: 'easeIn',
                 onEnd: () => {
                     rainDrop.destroy();
