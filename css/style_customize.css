@@ -45,7 +45,7 @@
 }
 
 .about-grids p {
-    color: #000;
+    color: #666;
     margin: 1.5em 0;
     line-height: 28px;
     letter-spacing: .5px;
@@ -278,7 +278,7 @@ h3.heading:after {
     line-height: 24px;
     letter-spacing: .5px;
     font-size: 14px;
-    color: #000;
+    color: #666;
     border-left: 3px solid #222;
     padding-left: 3em;
 }
