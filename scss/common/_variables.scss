@@ -1,0 +1,14 @@
+$primary-color: #02BEC4;
+
+/* =======================================
+ * RESPONSIVE MARK
+ /* ======================================= */
+$information-sm-laptop: "only screen and (max-width : 1280px)";
+$information-lg-tablet: "only screen and (max-width : 1024px)";
+$information-tablet: "only screen and (max-width : 768px)";
+$information-phone: "only screen and (max-width : 480px)";
+$information-sm-phone: "only screen and (max-width : 330px)";
+
+/* USAGE */
+@media #{$information-sm-laptop}{}
+

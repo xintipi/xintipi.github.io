@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- TODO: Replace This Title -->
+    <title>Profile</title>
+
+    <!-- Bootstrap Stylesheet Reference -->
+    <link rel="stylesheet" href="css/vendors/jquery-ui.css">
+    <link rel="stylesheet" href="css/vendors/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style_customize.css">
+    <!-- Main stylesheet Reference -->
+
+</head>
+<body>
+
+
+<!-- ====== MAIN CONTENT ====== -->
+
+<div class="wrapper" id="page-wrapper">
+    <!-- Main Background Effect -->
+    <div class="bg-effect" id="page-bg-effect"></div>
+
+    <div class="page-content" id="page-content">
+        <section class="content" id="about">
+            <div class="blog-grid1" style="background: #fff">
+                <div class="center-block">
+                    <h3 class="heading" style="color: #333">About Me</h3>
+                    <div class="row about-grids">
+                        <div class="col-lg-4">
+                            <img src="images/xin.png" alt="" class="img-fluid" width="400px"/>
+                        </div>
+                        <div class="col-lg-8">
+                            <h4>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int.</h4>
+                            <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc. Nullam eu elit neque lectus. Aliquam erat volutpat. Nullam ac mattis mi. Donec tincidunt leoelit dictum viverra luctus.
+                                Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc. Nullam eu elit neque lectus. Aliquam erat volutpat. Nullam ac mattis mi. Donec tincidunt leoelit dictum viverra luctus.
+                                Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc. Nullam eu elit neque lectus. Aliquam erat volutpat. Nullam ac mattis mi. Donec tincidunt leoelit dictum viverra luctus.
+                            </p>
+                            <a href="#"> Download CV <span class="fa ml-2 fa-download"></span> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="drawer">
+        <h2 class="greeting">Welcome</h2>
+        <h4 class="sub-greeting">I'm Trung</h4>
+
+        <div class="devider">
+            <i class="fas fa-code"></i>
+        </div>
+
+        <ul class="main-menu">
+            <li><a href="./index.html">Index</a></li>
+            <li class="active"><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./experience.html">Experience</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- ====== MAIN CONTENT - END ====== -->
+
+<!-- jQuery-->
+<script src="js/bonsai-0.4.1.min.js"></script>
+<!-- jQuery - END -->
+
+<script>
+    // Bonsai JS setup
+    bonsai.run(document.getElementById('page-bg-effect'), {
+        url: 'js/scripts-bundled.js',
+        width: window.innerWidth,
+        height: window.innerHeight,
+    });
+</script>
+
+<!-- Main Script -->
+<!--<script src="js/scripts-bundled.js"></script>-->
+<!-- Main Script - END -->
+
+<!-- ====== SCRIPT REFERENCES - END ====== -->
+</body>
+</html>
