@@ -20,6 +20,15 @@
     -o-transition: 0.5s all;
 }
 
+@media screen and (max-width: 1280px) {
+    #about .blog-grid1 {
+        max-height: 600px;
+        overflow-y: auto;
+    }
+}
+
+
+
 #about .blog-grid1:before, #experience .blog-grid1:before {
     background: rgba(255, 255, 255, 0.3);
 }
